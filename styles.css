@@ -33,3 +33,9 @@ header {
     height: 90vh; /* Adjust the height as needed */
   }
 
+  .section-color {
+    background-image: linear-gradient(to right, #504747, #121211);
+    padding: 20px;
+  }
+
+
