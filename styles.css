@@ -30,12 +30,20 @@ header {
     background-image: url("upper\ image.jpeg");
     background-size: cover;
     background-position: center;
-    height: 90vh; /* Adjust the height as needed */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
 
   .section-color {
     background-image: linear-gradient(to right, #504747, #121211);
     padding: 20px;
   }
 
+  .grid-container {
+    display: grid;
+    grid-template-rows: none;
+  }
 
